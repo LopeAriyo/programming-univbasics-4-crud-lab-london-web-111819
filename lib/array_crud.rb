@@ -10,15 +10,11 @@ def add_element_to_end_of_array(array, element)
 
 array << element
 
-#p array
-
 end
 
 def add_element_to_start_of_array(array, element)
 
   array.unshift(element)
-
-  p array
 
 end
 
@@ -26,19 +22,12 @@ def remove_element_from_end_of_array(array)
 
   new_array = array.pop
 
-  p array
-
-  p new_array
-
 end
 
 def remove_element_from_start_of_array(array)
 
   new_array = array.shift
 
-  p array
-
-  p new_array
 
 end
 
