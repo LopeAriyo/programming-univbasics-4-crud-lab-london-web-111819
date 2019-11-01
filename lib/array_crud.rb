@@ -10,7 +10,7 @@ def add_element_to_end_of_array(array, element)
 
 array << element
 
-p array
+#p array
 
 end
 
@@ -44,11 +44,13 @@ end
 
 def retrieve_element_from_index(array, index_number)
 
-  p array[index_number]
+  array[index_number]
 
 end
 
 def retrieve_first_element_from_array(array)
+
+
 
 end
 
