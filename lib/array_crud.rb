@@ -34,6 +34,12 @@ end
 
 def remove_element_from_start_of_array(array)
 
+  new_array = array.shift
+
+  p array
+
+  p new_array
+
 end
 
 def retrieve_element_from_index(array, index_number)
